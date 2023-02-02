@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex; 
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+
+.logo{
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+.logo img{
+    padding-left: 0.5em;
+    padding-top: 0.2em;
+    width: 100%;
+    object-fit: contain;
+}
+
+.navi{
+   
+}
+
+.list li {
+    display: inline;
+    list-style: none;
+    padding: 1em;
+}
+li a:hover{
+    
+}
