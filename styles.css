@@ -13,7 +13,6 @@ body{
     display: flex; 
     flex-direction: column;
     width: 100%;
-    min-height: 570px;
     background-color: rgb(235, 241, 246);
 }
 
