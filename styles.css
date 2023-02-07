@@ -4,109 +4,55 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-}
-
 .main_container{
-    display: flex; 
-    flex-direction: column;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(235, 241, 246);
 }
 
-.header_container{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    min-height: 50px;
-    background-color: rgb(189, 246, 140);
+h2{
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+   
 }
-.header_container img{
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-}
-.header_container li {
-    display: inline;
-    list-style: none;
-    padding: 0.8em;
-    text-decoration: none;
-}
-.header_container a {
-    text-decoration: none;
-}
-a:hover {
-    padding: 0.2em;
-    background-color: rgb(235, 241, 246);
-    border-radius: 0.3em;
-  }
 
-.hero_container{
+.hero_section{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    min-height: 150px;
-    background-color: rgb(221, 246, 140);
-}
-.heroTxt{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: auto;
+    background-color: rgb(163, 239, 138);
     margin: auto;
-    flex-basis: 80%;  /* 1 */
-    word-wrap: break-word;
-}
-.heroTxt p{
-    margin: 5px;
+    text-align: center;
+   
 }
 
-.sec_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 15px;
-    width: 100%;
-    min-height: 300px;
-    background-color: rgb(189, 246, 140);
+.child1{
+    padding-top: 4em;
+    flex: 1 1 150px;
+    height: 150px;
+    margin: 1em;
+    background-color: rgb(239, 138, 214);
+    box-shadow: 10px 10px 20px rgb(133, 117, 117);
 }
-.sec_item1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 30%;  
-    background-color: rgb(221, 246, 140);
+.child2{
+    padding-top: 4em;
+    flex: 1 1 150px;
+    height: 150px;
+    margin: 1em;
+    background-color: rgb(239, 138, 150);
+    box-shadow: 10px 10px 20px rgb(133, 117, 117);
 }
-.sec_item2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 60%;  
-    background-color: rgb(221, 246, 140);
-}
-
-.foot{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    width: 100%;
-    min-height: 30px;
-    background-color: rgb(221, 246, 140);
+.child3{
+    padding-top: 4em;
+    flex: 1 1 150px;
+    height: 150px;
+    margin: 1em;
+    background-color: rgb(255, 28, 28);
+    box-shadow: 10px 10px 20px rgb(133, 117, 117);
 }
 
 
 
-/*
-1. when the parent div is set to "flex-direction: row" property 
-than the "flex items", do not need height property 
-and width is set using "flex-basis" property instead of width property
-
-*/
